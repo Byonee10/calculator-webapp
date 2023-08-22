@@ -12,9 +12,12 @@ body,html{
     align-items: center;
     border:15px solid black;
     padding:25px;
+    background-clip: border-box;
+    background-color: green;
 }
 .screen{
     display: flex;
+    background-color: white;
     align-items: center;
     justify-content: flex-end;
     border: solid black;
